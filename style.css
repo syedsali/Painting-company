@@ -126,3 +126,9 @@ nav{
     animation-iteration-count: 2;
     animation-direction: alternate;
 }
+
+ .contact{
+    float: right;
+    padding-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+ }
