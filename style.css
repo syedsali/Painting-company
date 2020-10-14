@@ -46,16 +46,12 @@ nav{
     margin-left: 400px;
     list-style-type: none;
 }
-nav a:hover{
-    color: silver;   
-    text-decoration: none;
-}
+
 
 .second {
     text-decoration:none;
     font-size: 20px;
     margin: 35px;
-    color: white;
     border-radius: 20px;
     background: green;
     padding: 20px;
@@ -69,11 +65,11 @@ nav a:hover{
     list-style-type: none;
 }
 
+
 .third {
     text-decoration:none;
     font-size: 20px;
     margin: 35px;
-    color: white;
     border-radius: 20px;
     background: brown;
     padding: 20px;
@@ -88,12 +84,12 @@ nav a:hover{
 
 }
 
-.first a, .second a, .third a{
+.first a, .second a, .third a {
     color: white;
     margin-bottom: 100px;
     
-
 }
+
 .logo{
     border: 1px solid black;
     border-style: groove;
@@ -105,7 +101,7 @@ nav a:hover{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position: relative;
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 @keyframes logo {
     0%{transform: translateY(-350px)}
@@ -115,8 +111,18 @@ nav a:hover{
 }
 
 .footer{
-    margin-left: 650px;
-}
-.copy{
     text-align: center;
+}
+
+.first, .second, .third a:hover{
+    color: silver;   
+    text-decoration: none;
+}
+
+.images-1{
+    border: none;
+    animation-name: carousel;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
