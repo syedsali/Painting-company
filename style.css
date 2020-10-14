@@ -1,0 +1,122 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /* font-size: 20px;
+    float: right;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    color:white;
+    text-decoration: none; */
+/* }
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:20px;
+    color: black;
+    position: relative;
+    padding-bottom: 30px; */
+nav{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+
+
+
+.first{
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background:red;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 400px;
+    list-style-type: none;
+}
+nav a:hover{
+    color: silver;   
+    text-decoration: none;
+}
+
+.second {
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background: green;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.third {
+    text-decoration:none;
+    font-size: 20px;
+    margin: 35px;
+    color: white;
+    border-radius: 20px;
+    background: brown;
+    padding: 20px;
+    width: 323px;
+    height: 30px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 10px;
+    list-style-type: none;
+
+}
+
+.first a, .second a, .third a{
+    color: white;
+    margin-bottom: 100px;
+    
+
+}
+.logo{
+    border: 1px solid black;
+    border-style: groove;
+    transform: rotate(-15deg);
+    margin-left: 50px;
+    margin-top: 40px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-delay: 3s;
+}
+@keyframes logo {
+    0%{transform: translateY(-350px)}
+    /* 50%{transform: translateY(-350px)} */
+    100%{transform: translate(30px) rotate(-10deg)}
+
+}
+
+.footer{
+    margin-left: 650px;
+}
+.copy{
+    text-align: center;
+}
